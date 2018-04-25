@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+     Célébrities
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  The world is your oyster.
+  <p>
+    Si tu es perdu la <a href="http://ionicframework.com/docs/v2">doc</a> te guidera
+  </p>
+  
+  <button ion-button color="light" [navPush]="nextPage">Next</button>
+  <button ion-button color="light" [navPush]="nextPage2">Cards</button>
+  <button ion-button color="light" [navPush]="personnage">Add Personnage</button>
+  <ion-list>
+      <ion-item>
+        <ion-thumbnail item-start>
+          <img src="../../assets/imgs/edwardSharpe.jpg">
+        </ion-thumbnail>
+        <h2>Edward Sharpe and the Magnetics Zeros</h2>
+        <p>En 2009, Alexander Ebert, Jade Castrinos et une troupe de musiciens pour la plupart des amis de longue date 1, fondent Edward Sharpe and the Magnetic Zeros. Le groupe part en tournée en bus à travers les États-Unis. Le style musical est très éloigné des précédentes collaborations d’Alexander Ebert avec Ima Robot.</p>
+        <button ion-button color="light" [navPush]="nextPage">Next</button>
+      </ion-item>
+      <ion-item>
+          <ion-thumbnail item-start>
+            <img src="../../assets/imgs/Vika-Yermolyeva-Zorlupsm.jpg">
+          </ion-thumbnail>
+          <h2>Vika Yermolyeva (vkgoeswild)</h2>
+          <p>Vika Yermolyeva, de son vrai nom Viktoriya Yermolyeva, née le 2 novembre 1978 à Kiev, est une pianiste virtuose ukrainienne, ayant la particularité de reprendre des morceaux dits de « rock » ou de « metal ».</p>
+          <button ion-button color="light" [navPush]="nextPage">Next</button>
+        </ion-item>
+    </ion-list>
+</ion-content>
+

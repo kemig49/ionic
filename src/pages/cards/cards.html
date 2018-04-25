@@ -1,0 +1,52 @@
+<!--
+  Generated template for the CardsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>cards</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list>
+        <ion-item>
+          <ion-thumbnail item-start>
+            <img src="../../assets/imgs/tibet_everest.jpg">
+          </ion-thumbnail>
+          <h2>Le Tibet</h2>
+          <p>Le pays de la sagesse</p>
+          <button ion-button clear item-end [navPush]="nextPage">View</button>
+        </ion-item>
+        <ion-item>
+            <ion-thumbnail item-start>
+              <img src="../../assets/imgs/islande.jpg">
+            </ion-thumbnail>
+            <h2>Islande</h2>
+            <p>La beauté glacée</p>
+            <button ion-button clear item-end [navPush]="nextPage">View</button>
+          </ion-item>
+          <ion-item>
+              <ion-thumbnail item-start>
+                <img src="../../assets/imgs/ile-maurice.jpg">
+              </ion-thumbnail>
+              <h2>Ile Maurice</h2>
+              <p>La corse du pacifique</p>
+              <button ion-button clear item-end [navPush]="nextPage">View</button>
+            </ion-item>
+            <ion-item>
+                <ion-thumbnail item-start>
+                  <img src="../../assets/imgs/alpes2.jpg">
+                </ion-thumbnail>
+                <h2>La haute savoie</h2>
+                <p>La grandeur de la nature dans toute sa splendeur</p>
+                <button ion-button clear item-end [navPush]="nextPage">View</button>
+              </ion-item>
+      </ion-list>
+
+</ion-content>
